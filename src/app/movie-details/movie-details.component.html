@@ -1,0 +1,9 @@
+<h2>Details : {{movie.title}}</h2>
+<div><span>Id: </span>{{movie.id}}</div>
+<div><span>Rate: </span>{{movie.rate}}</div>
+<div>
+  <label>Title:
+    <input [(ngModel)]="movie.title" placeholder="title"/>
+  </label>
+</div>
+<button (click)="goBack()">go back</button>
